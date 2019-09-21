@@ -14,12 +14,10 @@ function EightQueens(strArr) {
 }
 
 function getPositionObj(arr, index) {
-  let pos = {};
-  
-  pos.x = arr[index].charAt(arr[index].indexOf(',') - 1);
-  pos.y = arr[index].charAt(arr[index].indexOf(',') + 1);
-  
-  return pos; //position of queen in format {x: 2, y:1}
+  return {
+    x: arr[index].charAt(arr[index].indexOf(',') - 1),
+    y: arr[index].charAt(arr[index].indexOf(',') + 1)
+  } //position of queen in format {x: 2, y:1}
 }
 
 function findQueenAttacks(arr, index) {
