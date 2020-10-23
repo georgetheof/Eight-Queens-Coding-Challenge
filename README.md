@@ -20,6 +20,6 @@ Input:["(2,1)", "(5,3)", "(6,3)", "(8,4)", "(3,4)", "(1,8)", "(7,7)", "(5,8)"]
 
 Output:"(5,3)"
 
-<b>Note</b>: In order to test it locally, replace line 34 with
+<b>Note</b>: In order to test it locally, replace line 54 with
 
-MaximalSquare(["(2,1)", "(4,2)", "(6,3)", "(8,4)", "(3,5)", "(1,6)", "(7,7)", "(5,8)"]);
+EightQueens(["(2,1)", "(4,2)", "(6,3)", "(8,4)", "(3,5)", "(1,6)", "(7,7)", "(5,8)"]);
